@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "chocofish",
+	"version": "${version}",
+	"name": "ChocoFish",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"LuxSaar"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/chocofish/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"luxsaar.chocofish.ChocoFish"
+		],
+		"client": [
+			"luxsaar.chocofish.ChocoFishClient"
+		],
+		"fabric-datagen": [
+          "luxsaar.chocofish.ChocoFishDataGenerator"
+		]
+	},
+	"mixins": [
+		"chocofish.mixins.json",
+		{
+			"config": "chocofish.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
