@@ -3,5 +3,12 @@
   "item.chocofish.plastic_ore": "Plastic Ore",
   "block.chocofish.plastic_block": "Plastic Block",
   "block.chocofish.plastic_ore_block": "Plastic Ore",
-  "block.chocofish.deepslate_plastic_ore_block": "Plastic Block"
+  "block.chocofish.deepslate_plastic_ore_block": "Plastic Block",
+  "block.chocofish.goldenwood_log": "Goldenwood Log",
+  "block.chocofish.goldenwood_wood": "Goldenwood Wood",
+  "block.chocofish.stripped_goldenwood_wood": "Stripped Goldenwood Wood",
+  "block.chocofish.stripped_goldenwood_log": "Stripped Goldenwood Log",
+  "block.chocofish.goldenwood_planks": "Goldenwood Planks",
+  "block.chocofish.goldenwood_leaves": "Goldenwood Leaves",
+  "block.chocofish.goldenwood_sapling": "Goldenwood Sapling"
 }

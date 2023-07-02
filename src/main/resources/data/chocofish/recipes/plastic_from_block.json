@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "plastic",
+  "ingredients": [
+    {
+      "item": "chocofish:plastic_block"
+    }
+  ],
+  "result": {
+    "item": "chocofish:plastic",
+    "count": 9
+  }
+}
